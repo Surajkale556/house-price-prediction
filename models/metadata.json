@@ -1,0 +1,20 @@
+{
+  "model": "Tuned ElasticNet in sklearn Pipeline (log1p target)",
+  "best_params": {
+    "model__regressor__alpha": 0.0002359137306347715,
+    "model__regressor__l1_ratio": 0.9381982429404656
+  },
+  "cv_log_rmse_5fold": 0.1146,
+  "holdout_log_rmse": 0.1081,
+  "holdout_mae_usd": 14106,
+  "holdout_mape_pct": 8.0,
+  "training_rows": 1458,
+  "seed": 42,
+  "versions": {
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3"
+  },
+  "trained_on": "ALL rows (train + holdout) \u2014 deployment refit",
+  "date": "2026-10-14"
+}
